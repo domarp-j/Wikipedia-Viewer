@@ -1,0 +1,52 @@
+/*Bootstrap 3.3.6*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+$searchColor: #145B8D; // Wikipedia Blue
+$mainTextColor: #000; // Black
+$altTextColor: #FFF; // White
+
+body { 
+  margin-top: 35vh;
+  margin-bottom: 15px;
+  font-family: Roboto Condensed;
+}
+
+#searchBarArea {
+  background: $searchColor; 
+  padding: 3px 3px 3px 3px;
+}
+
+#searchBar {
+  height: 42px;
+  font-size: 150%; 
+}
+
+.btn { 
+  background-color: $searchColor; 
+  height: 48px; 
+  width: 66px;
+  margin-top: 10px;
+}
+#searchButton { margin-right: 8px; }
+
+.fa { font-size: 150%; }
+
+a, a:hover, a:focus, a:active { 
+  color: $mainTextColor; 
+  text-decoration: none; // removes underlines
+}
+
+.search-result:hover { border-left: thick outset $searchColor; }
+
+.search-title { 
+  color: $altTextColor; 
+  background-color: $searchColor; 
+  padding: 10px 1em 10px 1em; 
+}
+
+.search-extract { 
+  border: 2px solid $searchColor;
+  margin-top: -10px; 
+  padding: 15px 1em 15px 1em; 
+}

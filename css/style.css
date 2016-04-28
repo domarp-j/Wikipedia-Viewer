@@ -1,0 +1,53 @@
+/*Bootstrap 3.3.6*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body {
+  margin-top: 35vh;
+  margin-bottom: 15px;
+  font-family: Roboto Condensed;
+}
+
+#searchBarArea {
+  background: #145B8D;
+  padding: 3px 3px 3px 3px;
+}
+
+#searchBar {
+  height: 42px;
+  font-size: 150%;
+}
+
+.btn {
+  background-color: #145B8D;
+  height: 48px;
+  width: 66px;
+  margin-top: 10px;
+}
+
+#searchButton {
+  margin-right: 8px;
+}
+
+.fa {
+  font-size: 150%;
+}
+
+a, a:hover, a:focus, a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-result:hover {
+  border-left: thick outset #145B8D;
+}
+
+.search-title {
+  color: #FFF;
+  background-color: #145B8D;
+  padding: 10px 1em 10px 1em;
+}
+
+.search-extract {
+  border: 2px solid #145B8D;
+  margin-top: -10px;
+  padding: 15px 1em 15px 1em;
+}
