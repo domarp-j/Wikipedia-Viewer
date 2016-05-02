@@ -87,8 +87,7 @@ $(document).ready(function() {
     initiateSearch();
   });
   $(document).keypress(function(key) { // Conduct search when Enter key is pressed
-    if (key.which == 13) {
+    if (key.which == 13) 
       initiateSearch();
-    }
   });
 });
